@@ -1,5 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
+
 /* Prints wheather the generated random number is negative, zero or positive */
 
 /* Return: Always (Success) */
