@@ -1,7 +1,8 @@
-#include  <stdio.h>
- /**
-  * main prints the numbers from 0 to 9
-  *  *
+#include <stdio.h>
+
+/**
+  * main - Prints 0 to 9
+  *
   * Return: Always (Success)
   */
 int main(void)
@@ -12,7 +13,7 @@ int main(void)
 	{
 		putchar(n);
 	}
-	
+
 	putchar('\n');
 
 	return (0);
