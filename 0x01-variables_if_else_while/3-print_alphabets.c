@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+/**
+ * main - Prints the alphabet in lower and then in upper case followed by a new line
+ *
+ * Return: Always (Success)
+ */
+int main(void)
+{
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		putchar(c);
+	}
+
+	for (c = 'A'; c <= 'Z'; c++)
+	{
+		putchar(c);
+	}
+
+	putchar('\n');
+
+	return (0);
+}
