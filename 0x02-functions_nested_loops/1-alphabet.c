@@ -1,4 +1,4 @@
-#include "head.h"
+#include "main.h"
 
 /**
  *   * print_alphabet - Make the alphabet
