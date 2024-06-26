@@ -11,15 +11,15 @@
  *
  */
 
-int print_last_digit(int n) 
+int print_last_digit(int n)
 
 	{
 		int last = n % 10;
-	
-		if (last < 0) 
+
+		if (last < 0)
 		{
 		last = -last;
-		}	
+		}
 		_putchar(last + 48);
-		 return last;
+		return last;
 	}
