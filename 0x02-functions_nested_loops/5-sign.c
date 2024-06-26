@@ -8,7 +8,7 @@
  * Return: 1 for positive num, -1 for negative & zero for zero
  */
 
-int tell_sign(int n)
+int print_sign(int n)
 {
 	if (n > 0)
 	{
