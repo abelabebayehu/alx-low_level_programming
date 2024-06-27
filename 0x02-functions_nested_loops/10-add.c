@@ -8,7 +8,8 @@
  *@i2: 2nd number
  *
  *Return: sum
- */
+ *add: adds two integers
+ * /
 
 int add(int i1, int i2)
 {
