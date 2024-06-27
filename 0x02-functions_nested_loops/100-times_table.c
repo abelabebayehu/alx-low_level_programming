@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * * print_times_table - Prints a multiplication table up to param
- * * @n: The number to be treated
+ * * print_times_table - Prints a multiplication table based on given number
+ * * @n: The number to be done
  * *
  * * Return: Number matrix
  * */
@@ -48,9 +48,5 @@ void print_times_table(int n)
 			_putchar('\n');
 		}
 	}
-}
-				}	
-			}	
-					_putchar('\n');
-			}
+	_putchar('\n');
 }
