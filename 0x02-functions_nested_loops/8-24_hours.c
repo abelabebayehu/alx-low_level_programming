@@ -8,15 +8,16 @@
  **/
 
 void jack_bauer(void)
+
 {
 	int i, j, k, l;
-	for (let i = 0; i < 2; i++)
+	for (i = 0; i < 2; i++)
 	{
-		for (let j = 0; j < 4; j++)
+		for (j = 0; j < 4; j++)
 		{
-			for (let k = 0; k < 6; k++)
+			for (k = 0; k < 6; k++)
 			{
-				for (let l = 0; l < 10; l++)
+				for (l = 0; l < 10; l++)
 				{
 					_putchar(i + '0');
 					_putchar(j + '0');
@@ -28,9 +29,9 @@ void jack_bauer(void)
 			}
 		}
 	}
-	for (let k = 0; k < 6; k++)
+	for (k = 0; k < 6; k++)
 	{
-		for (let l = 0; l < 10; l++)
+		for (l = 0; l < 10; l++)
 		{
 			_putchar('2');
 			_putchar('3');
