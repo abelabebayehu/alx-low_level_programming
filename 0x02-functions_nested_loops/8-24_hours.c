@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * jack_bauer: Prints the time from 00:00 to 23:59 
+ * jack_bauer: Prints the time from 00:00 to 23:59
  *
  * Return: not set
  **/
