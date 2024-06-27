@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- *
- * jack_bauer - Prints every minute of the day of Jack Bauer
+ * jack_bauer: - Prints every minute of the day of Jack Bauer
  *
  * Return: not set
  **/
@@ -16,7 +15,7 @@ void jack_bauer(void)
 	{
 		for (j = 0; j < 10; j++)
 		{
-			if (i == 2 && j == 3) 
+			if (i == 2 && j == 3)
 			{
 				break;
 			}
@@ -45,5 +44,5 @@ void jack_bauer(void)
 			_putchar(l + '0');
 			_putchar('\n');
 		}
-	 }
+	}
 }
