@@ -5,7 +5,7 @@
   *
   * Description: skip 2 and 4
   *
-  * Return: numbers 0 to 9 without 2 and 4
+  * Return:
   */
 
 void print_most_numbers(void)
@@ -20,5 +20,4 @@ void print_most_numbers(void)
 	       	_putchar('\n');
 		}
 	}
-	return (0);
 }
