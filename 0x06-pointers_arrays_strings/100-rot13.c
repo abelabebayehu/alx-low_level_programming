@@ -1,33 +1,26 @@
 #include "main.h"
-#include <stdio>
+#include <stdio.h>
 
 /**
-  * rot13 - ...
-  * @s: ...
+  * rot13 -
+  * @s: the string that is to be converted
   *
   * Return: ...
   */
 
 char *rot13(char *s)
 {
-	int a = 0;
-
-	while (s[a])
-	{
-		while ((s[a] >= 'a' && s[a] <= 'z') || (s[a] >= 'A' && s[a] <= 'Z'))
-		{
-			if ((s[a] > 'm' && s[a] <= 'z') || (s[a] > 'M' && s[a] <= 'Z'))
-			{
-				s[a] -= 13;
-				break;
-			}
-
-			s[a] += 13;
-			break;
-		}
-
-		a++;
-	}
-
-	return (s);
+    int i;
+    for (i = 0; s[i] != '\0'; i++) 
+    {
+        if ((s[i] >= 'A' && s[i] <= 'M') || (s[i] >= 'a' && s[i] <= 'm'))
+        {
+            s[i] = s[i] + 13;
+        }
+        else if ((s[i] >= 'N' && s[i] <= 'Z') || (s[i] >= 'n' && s[i] <= 'z'))
+        {
+            s[i] = s[i] - 13;
+        }
+    }
+    return s;
 }
