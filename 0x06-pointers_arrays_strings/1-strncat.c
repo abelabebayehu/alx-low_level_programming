@@ -9,24 +9,23 @@
   * Return: A pointer to the resulting string dest
   */
 
-char *_strncat(char *dest, const char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
-    int dest_len = 0;
-    int i = 0;
+	int dlen = 0, j = 0;
 
-    while (dest[dest_len])
-    {
-        dest_len++;
-    }
+	while (dest[dlen])
+	{
+		dlen++;
+	}
 
-    while (i < n && src[i])
-    {
-        dest[dest_len] = src[i];
-        dest_len++;
-        i++;
-    }
+	while (j < n && src[j])
+	{
+		dest[dlen] = src[j];
+		dlen++;
+		j++;
+	}
 
-    dest[dest_len] = '\0';
+	dest[dlen + n + 1] = '\0';
 
-    return dest;
+	return (dest);
 }
