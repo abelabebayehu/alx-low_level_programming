@@ -11,7 +11,6 @@
 char *rot13(char *s)
 {
 int i;
-char s;
 for (i = 0; s[i] != '\0'; i++) 
 {
 if ((s[i] >= 'A' && s[i] <= 'M') || (s[i] >= 'a' && s[i] <= 'm'))
