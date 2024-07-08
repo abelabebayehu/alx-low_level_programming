@@ -5,7 +5,7 @@
   * @s: source string
   * @c: character to find
   *
-  * Return: pointer to the first occurrence of the character c in the string s, or NULL if the character is not found
+  * Return: pointer to the first occurrence of the character
   */
 
 char *_strchr(char *s, char c)
