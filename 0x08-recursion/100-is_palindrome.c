@@ -1,5 +1,4 @@
-
-#include "holberton.h"
+#include "main.h"
 
 int check_palindrome(char *s);
 
@@ -9,6 +8,7 @@ int check_palindrome(char *s);
   *
   * Return: integer value
   */
+
 int is_palindrome(char *s)
 {
 	if (*s == '0')
