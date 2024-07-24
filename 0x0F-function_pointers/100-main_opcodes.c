@@ -38,7 +38,7 @@ int main(int argc, char *argv[])
 
 	return (0);
 }
-=======
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <udis86.h>
@@ -79,4 +79,3 @@ int main(int argc, char *argv[])
 
 	return (0);
 }
->>>>>>> 2ac452b634d7869476bd9c52e1185800fb65722a
