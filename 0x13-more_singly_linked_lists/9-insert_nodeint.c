@@ -8,7 +8,7 @@
   * @idx: The index at which to insert the new node
   * @n: The value to add to the new node
   *
-  * Return: The address of the new node, or NULL if it failed or index 
+  * Return: The address of the new node, or NULL if it failed or index
   *         is out of range
   */
 
