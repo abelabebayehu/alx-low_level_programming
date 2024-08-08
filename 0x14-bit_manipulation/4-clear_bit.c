@@ -13,7 +13,7 @@
 int clear_bit(unsigned long int *n, unsigned int index)
 {
 	/* Ensure the index is within the range of the number's bits */
-	
+
 	if (index >= sizeof(unsigned long int) * 8)
 	return (-1);
 

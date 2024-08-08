@@ -13,7 +13,7 @@
 int set_bit(unsigned long int *n, unsigned int index)
 {
 	/* Check if the index is within the range of the number's bits */
-	
+
 	if (index >= sizeof(unsigned long int) * 8)
 	return (-1);
 
